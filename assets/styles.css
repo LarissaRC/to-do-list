@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 600px;
+    border: 2px solid rgb(185, 185, 185);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 0.3rem 0;
+    border-radius: 4px;
+    border: 2px solid #47bd6a;
+    margin: 20px 10px;
+}
+
+.btn {
+    background-color: #47bd6a;
+    color: white;
+    padding: 7px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3bac5d;
+}
+
+#itens {
+    text-align: left;
+    margin-left: 130px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
